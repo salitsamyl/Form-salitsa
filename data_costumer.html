@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Form Data Costumer</title>
+</head>
+<body>
+
+    <h4 align ="center">Data Costumer</h4> 
+    <hr>  
+    <br>
+    <form>
+        <table align="center">
+            <tr>
+                <td> <label for="nama_suplier">Nama Suplier:</label></td>
+                <td><input type="text" id="namaSuplier" name="namaSuplier" required></td>
+            </tr>
+            <tr>
+                <td><label for="kode_suplier">Kode Costumer:</label></td>
+                <td><input type="text" id="kodeSuplier" name="kodeSuplier" required></td>
+            </tr>
+            <tr>
+                <td><label for="telepon_suplier">No.Telepon:</label></td>
+                <td><input type="number" id="TeleponSuplier" name="teleponSuplier" required></td>
+            </tr>
+            <tr>
+                <td><label for="email_suplier">Email :</label></td>
+                <td><input type="email" id="email_suplier" name="email_suplier" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="kategori_barang">Kategori Barang:</label> </td>
+                <td><input type="text" id="kategori_barang" name="kategori_barang" required></td>
+            </tr>
+            <tr>
+                <td> <label for="jenis_kelamin">Jenis Kelamin:</label></td>
+                <td><input type="radio" id="laki-laki" name="jenis_kelamin" value="Pria" required> Laki-Laki</td>
+                <td><input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan" required>Perempuan</td>
+            </tr>
+            <tr>
+                <td><label for="tanggal_daftar">Tanggal Daftar:</label></td>
+                <td><input type="date" id="tanggal_daftar" name="tanggal_daftar" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <br>
+                    <button type="submit" onclick="location.href='data_pembelian.html'">Data Pembelian</button>
+                    <button type="reset" value="ulangi" name="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+        </body>
+</html>
